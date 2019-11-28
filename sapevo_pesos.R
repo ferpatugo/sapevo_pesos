@@ -8,7 +8,7 @@
 #'
 #' @examples teste
 #'
-#' @export
+#' @export sapevo_pesos
 
 sapevo_pesos=function(projeto,decisores,alternativas,criterios,
                       #--entrada nota decisores para o peso

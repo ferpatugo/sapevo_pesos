@@ -8,7 +8,7 @@
 #'
 #' @examples teste
 #'
-#' @export
+#' @export sapevo_pesos
 
 sapevo_pesos=function(projeto,decisores,alternativas,criterios,
                       #--entrada nota decisores para o peso
@@ -19,8 +19,6 @@ sapevo_pesos=function(projeto,decisores,alternativas,criterios,
                       vetor_notas_decisor9=NULL,vetor_notas_decisor10=NULL
 
 ) {
-
-  require(dplyr)
 
   listas_notas_decisores=list(vetor_notas_decisor1,
                               vetor_notas_decisor2,
@@ -63,8 +61,8 @@ sapevo_pesos=function(projeto,decisores,alternativas,criterios,
 
     }
   }
-  cat("O nome do seu projeto é:",projeto,"\n")
-  cat("Aternativas do seu projeto são:",alternativas,"\n")
+  cat("O nome do seu projeto ?:",projeto,"\n")
+  cat("Aternativas do seu projeto:",alternativas,"\n")
   cat("Criterios do seu projeto:",criterios,"\n")
   cat("Os pesos do metodo sapevo-m sãoo:",vetor_peso)
 }

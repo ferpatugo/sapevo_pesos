@@ -61,9 +61,9 @@ sapevo_pesos=function(projeto,decisores,alternativas,criterios,
 
     }
   }
-  cat("O nome do seu projeto ?:",projeto,"\n")
-  cat("Aternativas do seu projeto:",alternativas,"\n")
-  cat("Criterios do seu projeto:",criterios,"\n")
-  cat("Os pesos do metodo sapevo-m sãoo:",vetor_peso)
+  cat("---------O nome do seu projeto ?:",projeto,"---------","\n")
+  cat("---------Aternativas do seu projeto:",alternativas,"---------","\n")
+  cat("---------Criterios do seu projeto:",criterios,"---------","\n")
+  cat("---------Os pesos do metodo sapevo-m são:",vetor_peso,"---------")
 }
 
